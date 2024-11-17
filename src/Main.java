@@ -5,10 +5,9 @@ public class Main {
         int replenishment = 1500;
         int bonus = 0;
 
-        if (replenishment >= 1000) {
+        if (replenishment > 1000) {
             bonus = replenishment / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         int finalScore = balance + replenishment + bonus;
