@@ -11,8 +11,8 @@ public class Main {
         else {
             bonus = 0;
         }
-        int finalscore = balance + replenishment + bonus;
-        System.out.println("Итоговый счет:" + finalscore);
+        int finalScore = balance + replenishment + bonus;
+        System.out.println("Итоговый счет:" + finalScore);
         System.out.println("Бонусные рубли:" + bonus);
     }
 }
